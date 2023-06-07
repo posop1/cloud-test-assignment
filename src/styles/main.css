@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'SB Sans Interface';
+  src: url('./font/SB Sans Interface.ttf');
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -17,7 +22,7 @@ html {
 body {
   overflow-x: hidden;
   font-style: normal;
-  font-family: 'Roboto', sans-serif;
-  background: white;
+  font-family: 'SB Sans Interface';
+  background: #f4f4f5;
   color: black;
 }
