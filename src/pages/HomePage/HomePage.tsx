@@ -12,7 +12,10 @@ export const HomePage: React.FC = () => {
           justify="flex-start"
           gap="50"
         >
-          <HeadInfo />
+          <HeadInfo
+            name="Артур"
+            sername="Яхин"
+          />
           <Line />
         </ColumnBox>
       </HomeWrapper>

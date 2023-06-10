@@ -3,9 +3,13 @@ import { Text } from '../../../../styles/Typography'
 import { ProfileAvatar } from '../../../elements/ProfileAvatar/'
 import { SocialMedia } from '../../../elements/SocialMedia'
 
-export const HeadInfo: React.FC = () => {
-  const name = 'Иван'
-  const sername = 'Иванов'
+interface HeadInfoProps {
+  name: string
+  sername: string
+}
+
+export const HeadInfo: React.FC<HeadInfoProps> = (props) => {
+  const { name, sername } = props
 
   return (
     <RowBox justify="flex-start">
